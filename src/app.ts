@@ -41,7 +41,7 @@ const addCustomer = () => {
     })
 }
 
-const customer = await addCustomer()
-console.log(customer)
+// const customer = await addCustomer()
+// console.log(customer)
 
 app.listen(process.env.PORT, () => console.log('Server Started'))
